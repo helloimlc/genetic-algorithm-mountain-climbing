@@ -70,28 +70,12 @@ The project investigates the impact of different evolutionary parameters, includ
 genetic-algorithm-mountain-climbing/
 │
 ├── README.md
-├── requirements.txt
 ├── LICENSE
 ├── .gitignore
 │
-├── creature.py
-├── genome.py
-├── population.py
-├── simulation.py
-├── starter.py
-├── prepare_shapes.py
-├── realtime_from_csv.py
-├── offline_from_csv.py
-├── cw_envt.py
+├── src/                 # Genetic algorithm and simulation implementation
 │
-├── test_creature.py
-├── test_genome.py
-├── test_population.py
-├── test_simulation.py
-│
-├── shapes/
-├── exceptional_extension/
-└── *.urdf
+└── tests/               # Unit tests
 ```
 
 ---
